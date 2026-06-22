@@ -133,15 +133,10 @@ span{
 }
 
 .btn-primary{
-    background: linear-gradient(  135deg, #6366f1, #9333ea );
+    background: #6366f1;
     color: white;
-    box-shadow: 0 10px 30px rgba(147,51,234,.3);
+   
 }
-
-.btn-primary:hover{
-    transform: translateY(-5px);
-}
-
 .btn-secondary{
     border: 1px solid #cbd5e1;
     color: #334155;
@@ -150,8 +145,6 @@ span{
 .btn-secondary:hover{
     background: #f8fafc;
 }
-
-
 .home-image{
     flex: 1;
     display: flex;
@@ -169,7 +162,7 @@ span{
     align-items: center;
 }
 .profile-circle i{
-    font-size: 12rem;
+    font-size: 10rem;
     color: rgba(255,255,255,.15);
 }
 .badge{
